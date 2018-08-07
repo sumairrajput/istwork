@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <title>Login</title>
+     <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Login</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/StyleSheet.css" rel="stylesheet" />
+        <link href="StyleSheet.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  </head>
+ <body >
+     
+        
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <!--Sign up start-->
+            <div class="container">
+                    <div class="col-sm-3"></div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="panel   ">
+                                <div class="panel-heading text-center">
+                                    <div  class="fa fa-bus" style="font-size:100px"></div>
+                                    <!--<hr>-->
+                                                     
+                                </div>
+      
+
+                                <div class="panel-body">
+
+
+
+
+
+
+                                    <!--<label class="col-xs-11">Email:</label>-->
+                                    <div class="col-xl-11">
+                                        <input type="text" ID="tbEmail" placeholder="Email" Class="form-control" />
+                                        <!--<asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Enter your email address" ControlToValidate="tbEmail"
+                                            Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
+          -->
+                                    </div>
+                                    <br>
+                                
+
+                                    <!--<label class="col-xs-11">Password:</label>-->
+                                    <div class="col-xl-11">
+                                        <input type="password" ID="tbPassword" placeholder="Password" Class="form-control"  TextMode="Password" />
+                                        <!--<asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Enter your password" ControlToValidate="tbPassword"
+                                            Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>-->
+
+                                    </div>
+                                    <div class="col-xs-11">
+                                        <input type="checkbox"style="margin-left:-15px">Terms and Conditions 
+           <input type="checkbox" style="text-align:right;margin-left:30px"> Remember Me?  
+
+                                    </div>
+                                    <div class="col-xs-11">
+                                        <a  href="Design1.html" textalign="left" style="margin-left:-15px">Forgot Password</a>
+
+
+                                    </div>
+
+                                    <div class="col-xs-11 space-vert">
+                                        <Button ID="BtnSignin" class="btn btn-success"   OnClick="BtnSignin_Click()" >Log-In</Button>
+          
+                                    </div>
+                                    <div class="col-xs-11 ">
+          
+                                            <Label type="non"  >New here?"</Label>
+                                            
+                                            <a  href="Design1.html" textalign="left" >Create account</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          
+          
+
+
+            </div>
+
+
+
+
+
+
+            <button id="myBtn" data-toggle="tooltip" data-placement="top" title="Go to top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></button>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/JavaScript.js"></script>
+            <script>
+                function smile() {
+                    var a;
+                    a = document.getElementById("div1");
+                    a.innerHTML = "&#xf118;";
+                    setTimeout(function () {
+                        a.innerHTML = "&#xf11a;";
+                    }, 1000);
+                    setTimeout(function () {
+                        a.innerHTML = "&#xf119;";
+                    }, 2000);
+                    setTimeout(function () {
+                        a.innerHTML = "&#xf11a;";
+                    }, 3000);
+                }
+                smile();
+                setInterval(smile, 4000);
+
+            </script>
+    </body>
+   
+ </html>
