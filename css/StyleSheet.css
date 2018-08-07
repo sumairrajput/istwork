@@ -1,0 +1,297 @@
+﻿body{
+    background-color:floralwhite;
+    
+}
+.centre{
+    text-align:left;
+}
+/*.center-page{
+    width:300px;
+height:400px;
+       	box-shadow:0px 0px 2px  2px ;
+           border-radius:15px;
+position:absolute;
+top:100px;
+bottom:-60px;
+left:0px;
+right:410px;
+margin:auto;
+}*/
+.center-page{
+    position:absolute;
+    box-shadow:0px 0px 2px  2px ;
+           border-radius:15px;
+       
+bottom:0px;
+left:0px;
+right:0px;
+margin:auto;
+    top:0px;
+    width:300px;
+height:300px;
+}
+	
+.space-vert{
+    margin-top:20px;
+  
+}
+  
+  
+  #a{
+            margin-right:5px;
+            /*color:white;*/
+        }
+        ul li a:hover{
+            font-weight:normal;
+            color:red;
+             
+               /*border-bottom: brown solid 5px;
+            border-top:2px solid blue;
+            border-bottom:3px solid black;*/
+        }
+        /*ul li a li a{
+            background-color:white;
+
+        }*/
+        #Btnrecoverpassword:hover{
+            font-weight: bold;
+             box-shadow: 0  5px black;
+        }
+    
+ #btLogout:hover {
+    font-weight: bold;
+     box-shadow: 0  5px black;
+}
+  #Button1:hover {
+    font-weight: bold;
+     box-shadow: 0  5px black;
+}
+  #Button1{
+      margin-left:20px;
+      /*margin-left:20px;
+      margin-right:20px;
+      width:130px;
+  }
+ #Label1:hover{
+      cursor: pointer;  
+ }
+        ul li a:active{
+background-color:white;
+                /*border-bottom:1px solid black;*/
+        }
+      
+      
+       #myBtn {
+          
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 18px;
+  height:45px;
+  z-index: 99;
+  border:medium;
+  outline: none;
+  background-color:darkgrey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0  5px #999;
+}
+
+#myBtn:hover {
+  background-color:black; 
+
+}
+/*Password*/
+.valid {
+    color: green;
+
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+#message {
+    display:none;
+    /*background: #f1f1f1;*/
+    color: #000;
+   
+    position: relative;
+     font-family:'Georgia Pro';
+    /*padding: 20px;*/
+    margin-top: 10px;
+}
+#message p {
+    padding: 0px 35px;
+    font-size: 12px;
+}
+#Label3 {
+    margin-left:15px;
+}
+ #Label2 {
+    margin-left:15px;
+}
+#Label4{
+    margin-left:15px;
+}
+ #Label5{
+    margin-left:15px;
+}
+ #lbluname{
+     color:snow;
+          font-family:'Georgia Pro';
+          border:none;
+          text-transform:capitalize;
+          	/*box-shadow:2px 2px 6px  -1px  ;
+                         border-radius: 2px ;*/ 
+
+
+
+
+ }
+ /*.dropdown-toggle:hover{
+          background-color:brown;
+
+ }
+ .dropdown:hover{
+               background-color:brown;
+
+ }
+ .navbar-inverse{
+     background-color:brown;
+ }
+ .navbar-header{
+          background-color:brown;
+
+ }
+ .navbar-toggle{
+               background-color:brown;
+
+ }
+ .sr-only{
+                    background-color:brown;
+
+ }
+ .icon-bar{
+                    background-color:brown;
+
+ }
+.dropdown{
+                        background-color:brown;
+
+}
+.dropdown-menu{
+                            background-color:brown;
+
+}*/
+
+ /*Footer designing*/
+/*.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  height:50px;
+   background-color: black;
+   color: blanchedalmond;
+   text-align: center;
+}*/
+
+/*.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}*/
+
+/*products.aspx*/
+.probrand {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.proName {
+    font-size: 13px;
+    line-height: 17px;
+    font-family: sans-serif;
+}
+
+.proPrice {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.proOgPrice {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscount {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+/*productview*/
+.proNameView {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #696e80;
+}
+
+.proOgPriceView {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscountView {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+.proPriceView {
+    font-size: 16px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/*.hr1{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: brown;
+}*/
+
